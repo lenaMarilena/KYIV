@@ -202,8 +202,7 @@ section {
 }
 
 a.CommentInput {
-  color: #8e8e8e;
-  color: rgba(var(--f52, 142, 142, 142), 1);
+  color: var(--primary-color);
   font-size: 14px;
   line-height: 17px;
   padding: 0;
@@ -287,7 +286,6 @@ footer a {
   opacity: 0.7;
 }
 a:-webkit-any-link {
-  color: var(--secondary-color);
   cursor: pointer;
   text-decoration: underline;
 }
