@@ -114,7 +114,7 @@ header a {
   max-height: 130px;
 }
 
-.img-responsive {
+.img-responsive1 {
   width: 100%;
   display: block;
 }
@@ -180,14 +180,66 @@ section {
 .card-body {
   padding: 30px;
 }
-.img-responsive {
-  width: 100%;
-  display: block;
-}
+
 .embed {
   width: 100%;
   aspect-ratio: 1 /1;
 }
 .card-footer {
-    padding: 0 30px 30px;
+  padding: 0 30px 30px;
+}
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #462cb3;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.CommentInput {
+  color: #8e8e8e;
+  color: rgba(var(--f52, 142, 142, 142), 1);
+  font-size: 14px;
+  line-height: 17px;
+  padding: 0;
+  text-decoration: none;
+  max-height: 600px;
+}
+
+.Footer {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-top: 1px solid #dbdbdb;
+  border-top: 1px solid rgba(var(--b38, 219, 219, 219), 1);
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  height: 44px;
+  padding: 0 10px;
+}
+
+iframe {
+  background: white;
+  max-width: 540px;
+  width: calc(100% - 2px);
+  border-radius: 3px;
+  border: 1px solid rgb(219, 219, 219);
+  box-shadow: none;
+  display: block;
+  margin: 0px 0px 12px;
+  min-width: 326px;
+  padding: 0px;
+  max-height: 650px;
+  margin-top: 20px;
 }
