@@ -293,3 +293,8 @@ a:-webkit-any-link {
   cursor: pointer;
   text-decoration: underline;
 }
+
+.card {
+  box-shadow: var(--box-shadow);
+  background-color: var(--secondary-color);
+}
