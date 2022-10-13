@@ -229,7 +229,7 @@ a.CommentInput {
   padding: 0 10px;
 }
 
-iframe {
+.instagram-media-rendered {
   background: white;
   max-width: 540px;
   width: calc(100% - 2px);
