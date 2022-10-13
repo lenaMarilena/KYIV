@@ -185,9 +185,7 @@ section {
   width: 100%;
   aspect-ratio: 1 /1;
 }
-.card-footer {
-  padding: 0 30px 30px;
-}
+
 .btn {
   display: block;
   color: white;
