@@ -110,8 +110,14 @@ header a {
 .img-responsive {
   width: 100%;
   display: block;
+  min-height: 150px;
+  max-height: 130px;
 }
 
+.img-responsive {
+  width: 100%;
+  display: block;
+}
 .grid {
   display: grid;
   grid-gap: 64px;
