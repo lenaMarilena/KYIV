@@ -332,4 +332,7 @@ a:-webkit-any-link {
   section {
     padding: 30px;
   }
+  .img-responsive {
+    display: none;
+  }
 }
