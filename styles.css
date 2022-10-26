@@ -315,7 +315,7 @@ a:-webkit-any-link {
   }
 }
 
-@media (min-width: 440px, max-width: 1000px) {
+@media (max-width: 1000px) {
   header h1 {
     font-size: 52px;
   }
@@ -333,6 +333,6 @@ a:-webkit-any-link {
     padding: 30px;
   }
   .img-responsive {
-    display: none;
+    max-width: fit-content;
   }
 }
