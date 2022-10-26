@@ -335,4 +335,7 @@ a:-webkit-any-link {
   .card-header.grid.grid-2-columns {
     max-block-size: max-content;
   }
+  iframe.embed {
+    display: max-content;
+  }
 }
