@@ -296,7 +296,7 @@ a:-webkit-any-link {
   background-color: var(--secondary-color);
 }
 
-@media (max-width: 960px) {
+@media (max-width: 380px) {
   header h1 {
     font-size: 48px;
   }
