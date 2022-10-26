@@ -336,6 +336,6 @@ a:-webkit-any-link {
     max-block-size: max-content;
   }
   iframe.embed {
-    display: max-content;
+    display: block;
   }
 }
