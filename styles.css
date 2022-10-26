@@ -333,6 +333,9 @@ a:-webkit-any-link {
     padding: 30px;
   }
   .card-header.grid.grid-2-columns {
-    max-block-size: max-content;
+    max-width: 350px;
+  }
+  iframe.embed {
+    display: none;
   }
 }
