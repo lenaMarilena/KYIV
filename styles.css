@@ -296,7 +296,7 @@ a:-webkit-any-link {
   background-color: var(--secondary-color);
 }
 
-@media (max-width: 780px) {
+@media (max-width: 440px) {
   header h1 {
     font-size: 48px;
   }
@@ -309,6 +309,25 @@ a:-webkit-any-link {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
+  }
+  section {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  header h1 {
+    font-size: 52px;
+  }
+  header h2 {
+    font-size: 24px;
+  }
+  header h3 {
+    font-size: 14px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 38px;
   }
   section {
     padding: 30px;
