@@ -332,7 +332,7 @@ a:-webkit-any-link {
   section {
     padding: 30px;
   }
-  .img-responsive {
-    max-width: fit-content;
+  .card-header.grid.grid-2-columns {
+    max-block-size: max-content;
   }
 }
